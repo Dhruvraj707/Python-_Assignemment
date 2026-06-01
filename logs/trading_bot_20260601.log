@@ -1,0 +1,18 @@
+2026-06-01 19:20:21 | ERROR    | cli | Missing API credentials. Aborting.
+2026-06-01 19:21:08 | ERROR    | cli | Missing API credentials. Aborting.
+2026-06-01 19:23:23 | INFO     | cli | CLI invoked | symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None stop_price=None
+2026-06-01 19:23:23 | DEBUG    | client | GET https://testnet.binancefuture.com/fapi/v1/ping params={}
+2026-06-01 19:23:24 | DEBUG    | client | Response 200: {}
+2026-06-01 19:23:24 | DEBUG    | orders | Order request | symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None stop=None
+2026-06-01 19:23:24 | INFO     | client | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001 price=None stopPrice=None
+2026-06-01 19:23:24 | DEBUG    | client | POST https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1780322004326}
+2026-06-01 19:23:24 | DEBUG    | client | Response 200: {"orderId":13701165054,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"xCPriqbAsjuVuld7uICk7H","price":"0.00","avgPrice":"0.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","cumQuote":"0.000000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updat
+2026-06-01 19:23:24 | INFO     | client | Order placed successfully: orderId=13701165054 status=NEW
+2026-06-01 19:29:21 | INFO     | cli | CLI invoked | symbol=BTCUSDT side=BUY type=MARKET qty=0.002 price=None stop_price=None
+2026-06-01 19:29:21 | DEBUG    | client | GET https://testnet.binancefuture.com/fapi/v1/ping params={}
+2026-06-01 19:29:21 | DEBUG    | client | Response 200: {}
+2026-06-01 19:29:21 | DEBUG    | orders | Order request | symbol=BTCUSDT side=BUY type=MARKET qty=0.002 price=None stop=None
+2026-06-01 19:29:21 | INFO     | client | Placing BUY MARKET order | symbol=BTCUSDT qty=0.002 price=None stopPrice=None
+2026-06-01 19:29:21 | DEBUG    | client | POST https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002, 'timestamp': 1780322361885}
+2026-06-01 19:29:22 | DEBUG    | client | Response 200: {"orderId":13701588908,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"Qj9TFT9tbl3cHRIJrrg77S","price":"0.00","avgPrice":"0.00","origQty":"0.0020","executedQty":"0.0000","cumQty":"0.0000","cumQuote":"0.000000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updat
+2026-06-01 19:29:22 | INFO     | client | Order placed successfully: orderId=13701588908 status=NEW
