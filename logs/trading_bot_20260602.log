@@ -1,0 +1,42 @@
+2026-06-02 00:33:00 | DEBUG    | client | GET https://testnet.binancefuture.com/fapi/v1/ticker/price params={'symbol': 'BTCUSDT'}
+2026-06-02 00:33:01 | DEBUG    | client | Response 200: {"symbol":"BTCUSDT","price":"71455.90","time":1780340575869}
+2026-06-02 00:33:08 | DEBUG    | client | GET https://testnet.binancefuture.com/fapi/v1/ping params={}
+2026-06-02 00:33:08 | DEBUG    | client | Response 200: {}
+2026-06-02 00:33:08 | INFO     | streamlit_ui | Testnet connection OK
+2026-06-02 00:33:08 | DEBUG    | client | GET https://testnet.binancefuture.com/fapi/v1/ticker/price params={'symbol': 'BTCUSDT'}
+2026-06-02 00:33:09 | DEBUG    | client | Response 200: {"symbol":"BTCUSDT","price":"71447.60","time":1780340587760}
+2026-06-02 00:33:18 | DEBUG    | client | GET https://testnet.binancefuture.com/fapi/v1/ticker/price params={'symbol': 'BTCUSDT'}
+2026-06-02 00:33:19 | DEBUG    | client | Response 200: {"symbol":"BTCUSDT","price":"71446.50","time":1780340597541}
+2026-06-02 00:33:19 | DEBUG    | orders | Order request | symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None stop=None
+2026-06-02 00:33:19 | INFO     | client | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001 price=None stopPrice=None
+2026-06-02 00:33:19 | DEBUG    | client | POST https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1780340599179}
+2026-06-02 00:33:19 | DEBUG    | client | Response 200: {"orderId":13722542478,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"szCijIP6reflHi4wvjZVS5","price":"0.00","avgPrice":"0.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","cumQuote":"0.000000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updat
+2026-06-02 00:33:19 | INFO     | client | Order placed successfully: orderId=13722542478 status=NEW
+2026-06-02 00:33:31 | DEBUG    | client | GET https://testnet.binancefuture.com/fapi/v1/ticker/price params={'symbol': 'BTCUSDT'}
+2026-06-02 00:33:32 | DEBUG    | client | Response 200: {"symbol":"BTCUSDT","price":"71443.80","time":1780340605901}
+2026-06-02 00:39:39 | DEBUG    | client | GET https://testnet.binancefuture.com/fapi/v1/ticker/price params={'symbol': 'BTCUSDT'}
+2026-06-02 00:39:40 | DEBUG    | client | Response 200: {"symbol":"BTCUSDT","price":"71422.20","time":1780340976313}
+2026-06-02 00:40:07 | DEBUG    | client | GET https://testnet.binancefuture.com/fapi/v1/ticker/price params={'symbol': 'BTCUSDT'}
+2026-06-02 00:40:08 | DEBUG    | client | Response 200: {"symbol":"BTCUSDT","price":"71422.10","time":1780341006163}
+2026-06-02 00:40:09 | DEBUG    | client | GET https://testnet.binancefuture.com/fapi/v1/ticker/price params={'symbol': 'BTCUSDT'}
+2026-06-02 00:40:09 | DEBUG    | client | Response 200: {"symbol":"BTCUSDT","price":"71449.80","time":1780341008191}
+2026-06-02 00:40:09 | DEBUG    | orders | Order request | symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None stop=None
+2026-06-02 00:40:09 | INFO     | client | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001 price=None stopPrice=None
+2026-06-02 00:40:09 | DEBUG    | client | POST https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1780341009688}
+2026-06-02 00:40:10 | DEBUG    | client | Response 200: {"orderId":13722956793,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"yQO64bIzFvZVLn5dV5duO6","price":"0.00","avgPrice":"0.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","cumQuote":"0.000000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updat
+2026-06-02 00:40:10 | INFO     | client | Order placed successfully: orderId=13722956793 status=NEW
+2026-06-02 00:40:14 | DEBUG    | client | GET https://testnet.binancefuture.com/fapi/v1/ticker/price params={'symbol': 'BTCUSDT'}
+2026-06-02 00:40:14 | DEBUG    | client | Response 200: {"symbol":"BTCUSDT","price":"71429.50","time":1780341012306}
+2026-06-02 00:40:15 | DEBUG    | client | GET https://testnet.binancefuture.com/fapi/v1/ticker/price params={'symbol': 'BTCUSDT'}
+2026-06-02 00:40:16 | DEBUG    | client | Response 200: {"symbol":"BTCUSDT","price":"71429.50","time":1780341012306}
+2026-06-02 00:40:16 | DEBUG    | orders | Order request | symbol=BTCUSDT side=SELL type=MARKET qty=0.001 price=None stop=None
+2026-06-02 00:40:16 | INFO     | client | Placing SELL MARKET order | symbol=BTCUSDT qty=0.001 price=None stopPrice=None
+2026-06-02 00:40:16 | DEBUG    | client | POST https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1780341016200}
+2026-06-02 00:40:16 | DEBUG    | client | Response 200: {"orderId":13722962980,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"A0lfTrqozd7NlbTB0PyEWx","price":"0.00","avgPrice":"0.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","cumQuote":"0.000000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"upda
+2026-06-02 00:40:16 | INFO     | client | Order placed successfully: orderId=13722962980 status=NEW
+2026-06-02 00:40:33 | DEBUG    | client | GET https://testnet.binancefuture.com/fapi/v1/ticker/price params={'symbol': 'BTCUSDT'}
+2026-06-02 00:40:33 | DEBUG    | client | Response 200: {"symbol":"BTCUSDT","price":"71415.10","time":1780341032309}
+2026-06-02 00:40:33 | DEBUG    | client | GET https://testnet.binancefuture.com/fapi/v1/ticker/price params={'symbol': 'BTCUSDT'}
+2026-06-02 00:40:34 | DEBUG    | client | Response 200: {"symbol":"BTCUSDT","price":"71415.10","time":1780341032309}
+2026-06-02 00:40:43 | DEBUG    | client | GET https://testnet.binancefuture.com/fapi/v1/ticker/price params={'symbol': 'BTCUSDT'}
+2026-06-02 00:40:43 | DEBUG    | client | Response 200: {"symbol":"BTCUSDT","price":"71414.90","time":1780341042192}
